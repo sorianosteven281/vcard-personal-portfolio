@@ -1,26 +1,22 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-#particles-js{
+/* #particles-js{
   width: 100%;
   height: 100%;
-  overflow: hidden;*/
+  overflow: hidden;
   background:url(https://wallpaperaccess.com/full/1196610.jpg);
-  background-size: cover;
-  
+  background-size: cover;}
+*/
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
 }
 :root {
 
@@ -63,10 +59,10 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
+  --jet:hsl(338deg 100% 38%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
+  --eerie-black-2:hsl(166deg 56% 4% / 52%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
